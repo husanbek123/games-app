@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.game_card {
+  width: 100%;
+  color: $activeFontColor;
+  letter-spacing: 0.5px;
+  .img_box {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.05);
+
+    .img {
+      object-fit: cover;
+      image-rendering: optimizeSpeed;
+      width: 100% !important;
+    }
+  }
+}

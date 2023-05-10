@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.layout {
+  padding: 25px 8%;
+  color: $inactiveFontColor;
+  ul {
+    list-style: none !important;
+  }
+
+  .children {
+    padding: 30px 0 0 0;
+  }
+}
+.inactive {
+  height: 100vh;
+}

@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+.active {
+  color: $activeFontColor;
+  //   font-size: 18px;
+}
+.inactive {
+  //   font-size: 18px;
+
+  color: $inactiveFontColor;
+}

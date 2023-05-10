@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .Btn {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .inactiveBtn {
+    color: rgba(255, 255, 255, 0.482);
+  }
+
+  .select {
+    color: white !important;
+    span {
+      // width: 100% !important;
+      // height: 100% !important;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.553);
+    }
+    div {
+      position: relative !important;
+      padding: 4px 4px 4px 10px !important;
+      border: 1px solid transparent !important;
+      color: white !important;
+      background-color: $grayColor !important;
+      border-radius: 12px !important;
+      height: 40px !important;
+      width: 100% !important;
+    }
+    input {
+      height: 100% !important;
+      width: 100% !important;
+      &::placeholder {
+        color: white !important;
+      }
+    }
+  }
+}
